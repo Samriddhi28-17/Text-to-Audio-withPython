@@ -1,6 +1,6 @@
 # Key Concepts Explained
 1. Google Colaboratory (Colab)
-Colab is a free, cloud-based platform provided by Google that allows you to write and execute Python code directly in your browser. It's essentially a hosted Jupyter Notebook environment that requires no setup and provides free access to computing resources, including GPUs and TPUs, which are essential for many machine learning tasks. This project uses Colab's interactive features to create a simple user interface.
+    Colab is a free, cloud-based platform provided by Google that allows you to write and execute Python code directly in your browser. It's essentially a hosted Jupyter Notebook environment that requires no setup and provides free access to computing resources, including GPUs and TPUs, which are essential for many machine learning tasks. This project uses Colab's interactive features to create a simple user interface.
 
 2. Python Libraries
 A Python library is a collection of pre-written functions and modules that you can import into your code to perform specific tasks. We used pip to install the two main libraries for this project:
