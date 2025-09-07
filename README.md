@@ -4,6 +4,8 @@ This is a Google Colab notebook that provides a simple and effective way to conv
 
 The project is built using Python and leverages powerful open-source libraries for PDF text extraction and text-to-speech conversion.
 
+N.B.: There may be issues with larger files; separate them, as the Colab file may show a runtime error while processing large files over 400/500 pages
+
 ## Features
 - Upload a PDF: Easily upload a PDF file directly from your local machine.
 - Custom Page Selection: Choose to convert the entire book or specify a custom range of pages (e.g., 1, 3-5, 8).
