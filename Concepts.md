@@ -24,10 +24,10 @@ For a web-based notebook, handling files can be tricky. This project uses Colab'
 ## The Overall Workflow
 The entire process is a pipeline that works as follows:
 
-- Upload: A user uploads a PDF file using the files.upload() widget.
+1. Upload: A user uploads a PDF file using the files.upload() widget.
 
-- Extract: The PyMuPDF library reads the PDF and extracts the text from the pages specified by the user's input.
+2. Extract: The PyMuPDF library reads the PDF and extracts the text from the pages specified by the user's input.
 
-- Convert: The gTTS library takes the extracted text and converts it into an audio file.
+3. Convert: The gTTS library takes the extracted text and converts it into an audio file.
 
-- Download: The files.download() function presents the user with a link to download the final MP3 file.
+4. Download: The files.download() function presents the user with a link to download the final MP3 file.
